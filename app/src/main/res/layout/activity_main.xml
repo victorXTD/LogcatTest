@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.victor_xiao.logcattest.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a Log.v"
+        android:id="@+id/Log_v"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a Log.d"
+        android:id="@+id/Log_d"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a Log.i"
+        android:id="@+id/Log_i"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a Log.w"
+        android:id="@+id/Log_w"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a Log.e"
+        android:id="@+id/Log_e"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+</LinearLayout>
